@@ -1,0 +1,18 @@
+{
+    "name": "lekarna/simple-html-dom",
+    "description": "A HTML DOM parser written in PHP5+ let you manipulate HTML in a very easy way!",
+    "keywords": [
+        "DOM",
+        "HTML",
+        "parser"
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+          "Lekarna\\SimpleHtmlDom\\": "src"
+        },
+		"files": ["src/simple_html_dom.php"]
+	}
+}
